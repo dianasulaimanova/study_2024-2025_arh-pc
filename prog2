@@ -1,0 +1,21 @@
+//calculating the surface area of a parallelepiped 
+#include <stdio.h>
+
+int main()
+{
+  float l,w,h; // the length width and height of the parallelepiped
+  float s;   //  the surface area of a parallelepiped
+  
+  printf("\ncalculating the surface area of a parallelepiped\n");
+  printf("enter the initial data:\n");
+  printf("length (cm.) -> ");
+  scanf("%f", &l);
+  printf("width (cm.) -> ");
+  scanf("%f", &w);
+  printf("height (cm.) -> ");
+  scanf("%f", &h);
+  s = (l*w + l*h + w*h) *2;
+  printf ("the surface area: %6.2f sq.cm.\n", s);
+  printf("\n\nto finish click <Enter>");
+}  
+ 
